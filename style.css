@@ -26,6 +26,8 @@ body{
     perspective: 1000px;
     box-shadow: 20px 20px 30px rgba(0,0,0,0.5);
 
+
+
 }
 
 .card:hover{
@@ -45,6 +47,7 @@ body{
 .card:hover .img-box{
     transform: rotateY(-180deg);
     box-shadow: 20px 20px 30px rgba(0,0,0,0.5);
+
 }
 
 .card .img-box img{
