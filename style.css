@@ -24,6 +24,7 @@ body{
     background-size: cover;
     transition: 1s;
     perspective: 1000px;
+    box-shadow: 20px 20px 30px rgba(0,0,0,0.5);
 
 }
 
@@ -43,6 +44,7 @@ body{
 
 .card:hover .img-box{
     transform: rotateY(-180deg);
+    box-shadow: 20px 20px 30px rgba(0,0,0,0.5);
 }
 
 .card .img-box img{
@@ -95,7 +97,6 @@ body{
     position: absolute;
     width: 100%;
     height: 100%;
-    transition: 2s;
 }
 
 .slider-1{
